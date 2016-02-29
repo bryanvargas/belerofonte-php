@@ -9,5 +9,6 @@
 define('HTML_DIR', 'html/');
 define('APP_TITLE', 'Belerofonte');
 define('APP_COPY', 'Copyright &copy; ' . date('Y', time()) . ' ');
+define('APP_URL', 'http://localhost:8086/curso_php_mx/OcrendBB/');
 
 require('vendor/autoload.php');
