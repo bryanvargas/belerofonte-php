@@ -16,3 +16,6 @@ if(isset($_GET['view'])){
 } else {
     include 'core/controllers/indexController.php';
 }
+
+
+//https://www.youtube.com/watch?v=FcL4u-1KCZM&list=PLDQZoQpLCoUCYnpXztWrSVPu5eVqISHDr&index=5
