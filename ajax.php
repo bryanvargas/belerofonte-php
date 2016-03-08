@@ -6,4 +6,8 @@
  * Time: 18:48
  */
 
-echo 2;
+if($_POST) {
+   echo 'a';
+} else {
+    header('location: index.php');
+}
