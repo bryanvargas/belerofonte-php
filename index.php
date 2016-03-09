@@ -7,6 +7,9 @@
  */
 require 'core/core.php';
 
+//echo Encript('1233454');
+//echo $_SESSION['app_id'];
+
 if(isset($_GET['view'])){
     if(file_exists('core/controllers/'. strtolower($_GET['view']) . 'controller.php')) {
         include 'core/controllers/' . strtolower($_GET['view'] . 'controller.php');
@@ -18,4 +21,4 @@ if(isset($_GET['view'])){
 }
 
 
-//https://www.youtube.com/watch?v=FcL4u-1KCZM&list=PLDQZoQpLCoUCYnpXztWrSVPu5eVqISHDr&index=5
+//https://www.youtube.com/watch?v=GQM4BwpsRfY&list=PLDQZoQpLCoUCYnpXztWrSVPu5eVqISHDr&index=6&feature=iv&src_vid=FcL4u-1KCZM&annotation_id=annotation_1784312683
